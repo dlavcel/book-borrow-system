@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="259.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework.fxControllers.Login">
+   <children>
+      <TextField fx:id="userNameField" layoutX="117.0" layoutY="70.0" />
+      <PasswordField fx:id="pswField" layoutX="117.0" layoutY="117.0" />
+      <Button layoutX="117.0" layoutY="161.0" mnemonicParsing="false" onAction="#validateAndLoad" text="Login" />
+      <Button layoutX="206.0" layoutY="161.0" mnemonicParsing="false" onAction="#newUserRegistration" text="Register" />
+      <Text layoutX="117.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" />
+      <Text layoutX="117.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password" />
+   </children>
+</AnchorPane>
